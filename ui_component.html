@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maram Badad Portfolio</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+  <style>
+  h1{
+      color:#E21897;
+  }
+  body{
+      /*changed the background color*/
+      background-color:#FEC8EA;
+  }
+  #tabs{
+    /*changes the font family, border, and background color of all tabs*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width:60%;
+    }
+    /*enlarges the images on the projects page*/
+    .enlarge {
+     width: 298px;
+     height: 245px;
+}
+  .enlarge:hover {
+     width: 596px;
+     height: 490px;
+}
+  .enlarge2 {
+     width: 376px;
+     height: 181px;
+}
+  .enlarge2:hover {
+     width: 752px;
+     height: 362px;
+}
+.profile{
+  float:left;
+   padding-right: 20px;
+}
+#tab1{
+  float:left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.quote{
+    /*changes the font size of quote*/
+   font-size:15px;
+}
+.dark{
+    /*changes the font color of the bolded text*/
+    color:#E21897;
+}
+
+
+  </style>
+</head>
+<body>
+    <h1>My Portfolio</h1>
+ <!--these are the tab categories-->
+<div id="tabs">
+  <ul>
+    <li><a href="#tab1">About Me</a></li>
+    <li><a href="#tab2">Contact</a></li>
+    <li><a href="#tab3">Work Experience</a></li>
+    <li><a href="#tab4">Projects</a></li>
+    <li><a href="#tab5">Professional Development</a></li>
+  </ul>
+   <!--this is the information that goes into corresponding tabs-->
+  <div id="tab1">
+    <img class="profile" src="profile_pic.jpg" alt="headshot" width="252" height="336">
+    <p>I have always had a passion for design and I'm excited to finally have the opportunity to share my work.<br>
+      Currently, I am a Junior at the University of Wisconsin-Milwaukee working towards a BA in Information Science and Technology, with a concentration in web design.<br>I am also working towards an Art & Design minor and a Digital Arts and Culture certificate.<br>
+      </p>
+      <p class="quote"><i>"I want to use my background in art and technology to create designs and find solutions that have the user's best interests in mind."</i></p>
+  </div>
+  <div id="tab2">
+    <p><strong class="dark">Email me:</strong> mbadad28@gmail.com<br><br>
+    <strong class="dark"> Call me:</strong> (414) 446-1305<br><br></p>
+    <a href="https://www.linkedin.com/in/marambadad/"><img src="link.png" alt="LinkedIn Logo" width="50" height="50"></a><br><br>
+    <a href="https://www.behance.net/marambadad"><img src="behance.png" alt="Behance Logo" width="50" height="50"></a> 
+  </div>
+  <div id="tab3">
+    <p><strong class="dark">UWM Grind - Barista (September 2022 - present)</strong><br>
+      Delivering excellent customer service while working as efficiently as possible.<br>Balancing several tasks in a fast-paced environment.<br>Maintaining a clean and professional workspace and appearance.
+    </p>
+    <p><strong class="dark">UWM Student Support Services - Peer Mentor/Office Worker (September 2022 - present) </strong><br>
+      Enhancing leadership skills by working one-on-one with new students.<br>Provide them with resources and tips on how to succeed in school.<br>Assist with day-to-day, such as taking calls, mailings, and printing.
+    </p>
+      <p>
+        <strong class="dark">Woops! Macarons - Sales Associate (April 2021 - August 2022)</strong><br>
+        Developed a strong work ethic and time management skills by assisting customers independently.<br>Designed macaron boxes for the holidays. 
+      </p>
+  </div>
+  <div id="tab4">
+    <p><strong class="dark">Mobile Interface:</strong><br> Designed a mobile interface following a user-centered design process using Adobe XD.<br>Worked in a team of three where we conducted research, user interviews, and analysis.<br> 
+      We then, created wireframes and various prototypes.<br>Finally, we created a high-fidelity prototype, all within 15 weeks.<br>The interface was a memory game, specifically developed for college students, to help
+      wake their brains before class.  </p>   
+      <img class="enlarge" src="memdaily.jpg" alt="Mobile prototype screenshot" width="298" height="245">
+    <p><strong class="dark">Website Re-design:</strong><br> Project for North Shore School for Seniors, a local outreach program, that provides courses for older adults in the community.<br>We redesigned their original website with WordPress.<br>
+      Transformed the website to include additional information such as organization information and volunteer/instructor opportunities while being easy to manage.<br> 
+      Optimized website navigation, graphics, and logo created on Adobe Illustrator for the web to improve their branding.<br>
+      Communicated with the client using Zoom and held our work process on Trello and Discord within our team. Used the agile method throughout the process.<br>
+      Coached the client on content creation for additional information.<br> 
+      Created style guide and documentation then trained the client before handing off the project.</p><br>
+      <img class="enlarge2" src="website.png" alt="Website screenshot" width="376" height="181">
+  </div>
+  <div id="tab5">
+    <p>Worked in a team and enhanced my problem-solving skills at MKE Tech Hub’s FUSE Bootcamp. Developed solutions for a real-world problem for the Milwaukee Bucks.
+    </p>
+    <p>Developed leadership skills by participating in Mount Mary University’s Summer Leadership Academy.</p>
+  </div>
+</div> 
+</body>
+</html>
